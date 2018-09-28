@@ -1,0 +1,24 @@
+#coder aLeng Joinu
+#用于不同开发者及不同编辑器之间代码风格的统一性
+#https://EditorConfig.org
+
+root = true
+
+#设置默认编码风格
+charset = utf-8
+
+#缩进风格
+indent_style = space
+indent_size = 2
+
+#行尾换行风格
+end_of_line = lf
+
+#去除多余空白符
+trim_trailing_whitespace = true
+
+#文件空白行结尾
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
